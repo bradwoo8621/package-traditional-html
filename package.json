@@ -1,0 +1,45 @@
+{
+  "name": "package-traditional-html",
+  "description": "Package traditional static html projects",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bradwoo8621/package-traditional-html",
+  "author": {
+    "name": "bradwoo8621",
+    "email": "bradwoo8621@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bradwoo8621/package-traditional-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bradwoo8621/package-traditional-html/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bradwoo8621/package-traditional-html/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "crypto": "0.0.3",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-group-javascript": "0.0.3",
+    "grunt-replace": "^0.11.0",
+    "grunt-rev": "^0.1.0"
+  }
+}
