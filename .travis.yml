@@ -11,3 +11,6 @@ install:
   - npm install grunt-contrib-uglify
   - npm install grunt-babel
   - npm install grunt-replace
+  - npm install grunt-babel
+  - npm install babel-preset-react
+  - npm install babel-plugin-transform-react-jsx
