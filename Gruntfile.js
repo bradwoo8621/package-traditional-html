@@ -288,7 +288,7 @@ module.exports = function(grunt) {
                                 // find javascript files in matched block
                                 var matched = arguments[0];
                                 var lines = matched.split(/\r|\n|\r\n/);
-                                var srcPattern = /(['|"]{1})(.*\.jsx?)(['|"]{1})/;
+                                var srcPattern = /(src=['|"]{1})(.*\.jsx?)(['|"]{1})/;
                                 var scriptFiles = lines.map(function(line) {
                                     var match = srcPattern.exec(line);
                                     if (match != null) {
